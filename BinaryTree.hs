@@ -3,6 +3,13 @@
 data BinaryTree a = Empty | Node a (BinaryTree a) (BinaryTree a)
                     deriving (Show, Eq) 
 
+instance Functor BinaryTree where
+    -- This type definition is not necessary as the type definition
+    -- is already defined in the Functor class.
+    -- fmap :: (a -> b) -> BinaryTree a -> BinaryTree b
+    fmap _ Empty = Empty
+    fmap f (Node a leftTree rightTree) = Node (f a) (fmap f leftTree) (fmap f rightTree)
+
 sampleTree = Node 1 (Node 2 (Node 3 Empty Empty)
                             (Node 3 Empty Empty))
                     (Node 4 Empty
@@ -47,3 +54,4 @@ isBST = helper (-100) 100
 treeInsert :: a -> BinaryTree a -> BinaryTree a
 treeInsert n Empty = Node n Empty Empty
 treeInsert n (Node a left right) = Node a left (treeInsert n right) 
+
