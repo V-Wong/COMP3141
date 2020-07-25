@@ -12,8 +12,8 @@ Study notes and code on the various concepts taught in the COMP3141: Software Sy
 - [Stack Monad implementation](https://github.com/V-Wong/COMP3141/blob/master/Functors%2C%20Monads%20and%20Applicatives/StackMonad.hs)
 
 ## Random Haskell Code
-- [Binary Tree](https://github.com/V-Wong/COMP3141/blob/master/ADTs/BinaryTree.hs)
-- [Zip](https://github.com/V-Wong/COMP3141/blob/master/smallFunctions/zip.hs)
-- [Map](https://github.com/V-Wong/COMP3141/blob/master/smallFunctions/map.hs)
-- [Filter](https://github.com/V-Wong/COMP3141/blob/master/smallFunctions/filter.hs)
-- [Left and Right Fold](https://github.com/V-Wong/COMP3141/blob/master/smallFunctions/folds.hs)
+- [Binary Tree](https://github.com/V-Wong/COMP3141/blob/master/Random%20Code/BinaryTree.hs)
+- [Zip](https://github.com/V-Wong/COMP3141/blob/master/Random%20Code/zip.hs)
+- [Map](https://github.com/V-Wong/COMP3141/blob/master/Random%20Code/map.hs)
+- [Filter](https://github.com/V-Wong/COMP3141/blob/master/Random%20Code/filter.hs)
+- [Left and Right Fold](https://github.com/V-Wong/COMP3141/blob/master/Random%20Code/folds.hs)
