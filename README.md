@@ -5,10 +5,11 @@ Study notes and code on the various concepts taught in the COMP3141: Software Sy
 - [Dictionary implementation](https://github.com/V-Wong/COMP3141/blob/master/ADTs/Dictionary.hs)
 
 ## Functors, Applicatives and Monads
-[Functor, Applicative and Monad Laws](https://github.com/V-Wong/COMP3141/blob/master/ADTs/Dictionary.hs)
+[Functor, Applicative and Monad Laws](https://github.com/V-Wong/COMP3141/blob/master/Functors%2C%20Monads%20and%20Applicatives/README.md)
 - [State Monad implementation](https://github.com/V-Wong/COMP3141/blob/master/Functors%2C%20Monads%20and%20Applicatives/StateMonad.hs)
 - [Maybe Monad implementation](https://github.com/V-Wong/COMP3141/blob/master/Functors%2C%20Monads%20and%20Applicatives/MaybeMonad.hs)
 - [ZipList Applicative implementation](https://github.com/V-Wong/COMP3141/blob/master/Functors%2C%20Monads%20and%20Applicatives/ZipListApplicative.hs)
+- [Combinatorial List Monad implementation](https://github.com/V-Wong/COMP3141/blob/master/Functors%2C%20Monads%20and%20Applicatives/ListMonad.hs)
 - [Stack Monad implementation](https://github.com/V-Wong/COMP3141/blob/master/Functors%2C%20Monads%20and%20Applicatives/StackMonad.hs)
 
 ## Random Haskell Code
