@@ -1,7 +1,8 @@
 # COMP3141: Software System Design and Implementation
 Study notes and code on the various concepts taught in the COMP3141: Software System Design and Implementation course at UNSW. Includes markup notes of theoretical concepts and commented Haskell implementations of the concepts.
 
-## Abstraction and Refinement
+## Data Invariants, Abstraction and Refinement
+[Notes on Data Invariants, Abstraction and Refinement](https://github.com/V-Wong/COMP3141/blob/master/Data%20Invariants%2C%20Abstraction%20and%20Refinement/README.md)
 - [Dictionary implementation](https://github.com/V-Wong/COMP3141/blob/master/ADTs/Dictionary.hs)
 
 ## Functors, Applicatives and Monads
