@@ -15,6 +15,8 @@ The set of properties that capture all of our requirements for our program is ca
 
 This defines what it means for software to be **correct**.
 
+It is often expressed as the combination of **data invariants** and a refinement from an abstract model.
+
 ## Testing
 ### Comparison To Proofs
 Compared to proofs:
@@ -35,9 +37,9 @@ Properties are more compact than unit tests and describe more cases resulting in
 
 However, property based tests depend heavily on **test data generation**:
 - Random inputs may not be as informative as hand-crafted inputs:
-  - use shrinking.
+  - use shrinking. This is the process of finding the smallest counterexample to a property.
 - Random inputs may not cover all necessary corner cases:
-  - use a coverage checker
+  - use a coverage checker. These are tools that measure the quality of our tests.
 - Random inputs must be generated for user-defined types:
   - QuickCheck includes functions to build custom generators.
   
@@ -60,10 +62,10 @@ Redundant properties include **unit tests**, and we should combine the two.
 |Type | Desciption | Example |
 | --- | ---------- | ------- |
 | Branch/Decision | Execution of all **conditional branches** | 
-| Entry/Exit | Execution of all function **calls** |
+| Entry/Exit | Execution of all function **calls** | A function f is called in multiple places. We want to ensure all these **call locations are tested**. |
 | Function | Execution of all **functions** |
 | Statement/Expression | Execution of all **expressions** |
-| Path | Execution of all **behaviours** (very hard) |
+| Path | Execution of all **behaviours** (very hard) | We want to ensure all possible executions from the initial state is tested. |
 
 ### Haskell Program Coverage
 **Haskell Program Coverage** is a GHC-bundled tool to measure function, branch and execution coverage.
