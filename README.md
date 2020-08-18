@@ -2,6 +2,7 @@
 Study notes and code on the various concepts taught in the COMP3141: Software System Design and Implementation course at UNSW. Includes markup notes of theoretical concepts and commented Haskell implementations of the concepts.
 
 ## Property Based Testing
+[Notes on Property Based Testing](https://github.com/V-Wong/COMP3141/tree/master/Property%20Based%20Testing)
 - [Reflexivity of Divisibility](https://github.com/V-Wong/COMP3141/blob/master/Property%20Based%20Testing/divisibleReflexivity.hs)
 
 ## Data Invariants, Abstraction and Refinement
