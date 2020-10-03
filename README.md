@@ -7,10 +7,10 @@ Study notes and code on the various concepts taught in the COMP3141: Software Sy
 
 ## Data Invariants, Abstraction and Refinement
 [Notes on Data Invariants, Abstraction and Refinement](https://github.com/V-Wong/COMP3141/blob/master/Data%20Invariants%2C%20Abstraction%20and%20Refinement/README.md)
-- [Dictionary implementation](https://github.com/V-Wong/COMP3141/blob/master/ADTs/Dictionary.hs)
+- [Dictionary implementation](https://github.com/V-Wong/COMP3141/blob/master/Data%20Invariants%2C%20Abstraction%20and%20Refinement/Dictionary.hs)
 
 ## Functors, Applicatives and Monads
-[Functor, Applicative and Monad Laws](https://github.com/V-Wong/COMP3141/blob/master/Functors%2C%20Monads%20and%20Applicatives/README.md)
+[Notes on Functor, Applicative and Monad Laws](https://github.com/V-Wong/COMP3141/blob/master/Functors%2C%20Monads%20and%20Applicatives/README.md)
 - [State Monad implementation](https://github.com/V-Wong/COMP3141/blob/master/Functors%2C%20Monads%20and%20Applicatives/StateMonad.hs)
 - [Maybe Monad implementation](https://github.com/V-Wong/COMP3141/blob/master/Functors%2C%20Monads%20and%20Applicatives/MaybeMonad.hs)
 - [ZipList Applicative implementation](https://github.com/V-Wong/COMP3141/blob/master/Functors%2C%20Monads%20and%20Applicatives/ZipListApplicative.hs)
@@ -21,6 +21,9 @@ Study notes and code on the various concepts taught in the COMP3141: Software Sy
 ## Generalised Algebraic Data Types and Other Type Related stuff
 - [Student ID - Untyped Phantom type sample](https://github.com/V-Wong/COMP3141/blob/master/GADTs/untypedStudentID.hs)
 - [Student ID - Typed Phantom type sample](https://github.com/V-Wong/COMP3141/blob/master/GADTs/typedStudentID.hs)
+
+## Curry Howard and Parametrecity
+[Notes on Curry Howard Correspondence and Parametricity (Free Theorems)](https://github.com/V-Wong/COMP3141/tree/master/Curry%20Howard%20and%20Parametricity)
 
 ## Random Haskell Code
 - [Binary Tree](https://github.com/V-Wong/COMP3141/blob/master/Random%20Code/BinaryTree.hs)
