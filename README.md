@@ -2,15 +2,15 @@
 Study notes and code on the various concepts taught in the COMP3141: Software System Design and Implementation course at UNSW. Includes markup notes of theoretical concepts and commented Haskell implementations of the concepts.
 
 ## Property Based Testing
-[Notes on Property Based Testing](Property%20Based%20Testing/README.md)
+[Notes on Property Based Testing](Property%20Based%20Testing)
 - [Reflexivity of Divisibility](Property%20Based%20Testing/divisibleReflexivity.hs)
 
 ## Data Invariants, Abstraction and Refinement
-[Notes on Data Invariants, Abstraction and Refinement](Data%20Invariants%2C%20Abstraction%20and%20Refinement/README.md)
+[Notes on Data Invariants, Abstraction and Refinement](Data%20Invariants%2C%20Abstraction%20and%20Refinement)
 - [Dictionary implementation](Data%20Invariants%2C%20Abstraction%20and%20Refinement/Dictionary.hs)
 
 ## Functors, Applicatives and Monads
-[Notes on Functor, Applicative and Monad Laws](Functors%2C%20Monads%20and%20Applicatives/README.md)
+[Notes on Functor, Applicative and Monad Laws](Functors%2C%20Monads%20and%20Applicatives)
 - [State Monad implementation](Functors%2C%20Monads%20and%20Applicatives/StateMonad.hs)
 - [Maybe Monad implementation](Functors%2C%20Monads%20and%20Applicatives/MaybeMonad.hs)
 - [ZipList Applicative implementation](Functors%2C%20Monads%20and%20Applicatives/ZipListApplicative.hs)
