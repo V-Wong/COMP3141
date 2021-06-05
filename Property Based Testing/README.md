@@ -59,6 +59,7 @@ Redundant properties include **unit tests**, and we should combine the two.
 - Has all code been exercised in all contexts?
 
 ### Types of Coverage
+
 |Type | Desciption | Example |
 | --- | ---------- | ------- |
 | Branch/Decision | Execution of all **conditional branches** | 
